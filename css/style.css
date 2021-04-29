@@ -1,0 +1,91 @@
+#header ul {
+    	list-style-type: none;
+   	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #333;
+    	text-align: center;
+}
+
+#header li {
+	display: inline-block;
+}
+#header li a {
+	display: inline-block;
+    	color: rgb(255, 255, 255);
+    	text-align: center;
+    	padding: 1em;
+    	text-decoration: none;
+}
+#header li a:hover {
+    	background-color: #d87878;
+}
+
+#main {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #222831;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ececec;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#30475e;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    color: #ececec;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+nav li a:hover {
+    background-color: #233444;
+}
+
+nav li a.active {
+    color: #30475e;
+    background-color: #f2a365;
+}
+
+h2 {
+    text-align: center;
+}
+
+td {
+    padding: 1em;
+}
+
+div.about img {
+  width: 400px;
+  height: 418px;
+}
+
+div.chicago img {
+  width: 240px;
+  height: 180px;
+}
