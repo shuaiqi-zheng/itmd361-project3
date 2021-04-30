@@ -109,6 +109,7 @@ div.chicago img {
 
 .slider{
   background-color: black;
+  width: auto;
 }
 
 .slider img {
@@ -117,4 +118,40 @@ div.chicago img {
   margin: auto;
   overflow: hidden;
   vertical-align: middle;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 600px) {
+#main
+{
+  background-color: #2ca898;
+  width: 95%;
+}
+
+#nav ul:hover
+{
+  background-color: #3d3d3d;
+}
+
+
+h2{
+  margin-left: 1.2em ;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+#main
+{
+  background-color: #e37f7f;
+  width: 90%;
+}
+
+#main ul:hover
+{
+  background-color: #2e2e2e;
+}
+
+h2{
+  margin-left: 1.4em ;
+}
 }
