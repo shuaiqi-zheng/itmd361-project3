@@ -106,3 +106,14 @@ div.chicago img {
     margin: 0.5em;
     margin-left: 0;
 }
+
+.slider{
+  background-color: black;
+}
+
+.slider img {
+  margin: 0 auto;
+  max-width: 100%;
+  overflow:hidden;
+  vertical-align: middle;
+}

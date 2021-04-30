@@ -66,3 +66,10 @@ function initMap() {
     marker3.setAnimation(google.maps.Animation.BOUNCE);
   })
 }
+
+
+$(document).ready(function(){
+  $('.slider').bxSlider({
+    captions: true
+  });
+});
