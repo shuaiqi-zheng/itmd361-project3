@@ -5,9 +5,11 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
-        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlmWw42SXJh1BE_OpAw1VaYXf9eFuXMV8&callback=initMap"></script>
-  	    <script defer src="js/script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script defer src="script.js"></script>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbCKcRJvV-vKszAQPko8WTEY6r5rAI7uE&callback=initMap"></script>
         <title>Map</title>
     </head>
 
@@ -29,10 +31,14 @@
             </ul>
         </nav>
 
-        <div id="main">
-            <h1>Places to explore in downtown Chicago</h1>
-            <div id="map"></div>
-        </div>
+        <div id="map"></div>
+
+        <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbCKcRJvV-vKszAQPko8WTEY6r5rAI7uE&callback=initMap&libraries=&v=weekly"
+          async>
+        </script>
+
 
   </body>
 </html>
