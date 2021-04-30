@@ -24,6 +24,11 @@
 #main {
     margin-left: 2em;
     margin-right: 2em;
+    width: 800px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
 }
 
 .center {
@@ -88,4 +93,24 @@ div.about img {
 div.chicago img {
   width: 240px;
   height: 180px;
+}
+
+#map {
+    margin: 0 auto;
+    height: 600px;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.googleMapsInfo {
+    color: black;
+    width: 320px;
+}
+
+.googleMapsInfo h1 {
+    margin: 0.5em;
+    margin-left: 0;
 }
