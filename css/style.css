@@ -113,7 +113,9 @@ div.chicago img {
 
 .slider img {
   margin: 0 auto;
-  max-width: 100%;
-  overflow:hidden;
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
   vertical-align: middle;
 }
