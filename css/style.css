@@ -147,7 +147,7 @@ h2{
 }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 300px) {
 #header li a:hover {
   background-color: #2ca898;
 }
