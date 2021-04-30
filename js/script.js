@@ -38,9 +38,31 @@ function initMap() {
   content: willis_tower
   });
 
+  // Add info window to the Cloud Gate
+  const cloud_gate = '<h2>Cloud Gate</h2> <p>The Willis Tower is a 108-story, 1,450-foot (442.1 m) skyscraper in Chicago. At completion in 1974, it surpassed the World Trade Center in New York City to become the tallest building in the world, a title that it held for nearly 25 years.</p>'
+  const marker2_info = new google.maps.InfoWindow({
+  content: cloud_gate
+  });
 
+  // Add info window to IIT
+  const iit = '<h2>Illinois Institute of Technology</h2> <p>The Willis Tower is a 108-story, 1,450-foot (442.1 m) skyscraper in Chicago. At completion in 1974, it surpassed the World Trade Center in New York City to become the tallest building in the world, a title that it held for nearly 25 years.</p>'
+  const marker3_info = new google.maps.InfoWindow({
+  content: iit
+  });
+
+  // Add functions for clicking
   marker1.addListener("click", () => {
     marker1_info.open(map, marker1);
     marker1.setAnimation(google.maps.Animation.BOUNCE);
+  })
+
+  marker2.addListener("click", () => {
+    marker2_info.open(map, marker2);
+    marker2.setAnimation(google.maps.Animation.BOUNCE);
+  })
+
+  marker3.addListener("click", () => {
+    marker3_info.open(map, marker3);
+    marker3.setAnimation(google.maps.Animation.BOUNCE);
   })
 }

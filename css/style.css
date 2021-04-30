@@ -92,7 +92,7 @@ div.chicago img {
 
 #map {
     margin: 0 auto;
-    height: 600px;
+    height: 700px;
     width: 100%;
 }
 
@@ -101,7 +101,7 @@ div.chicago img {
     width: 320px;
 }
 
-.googleMapsInfo h1 {
+.googleMapsInfo h2 {
     margin: 0.5em;
     margin-left: 0;
 }
