@@ -4,7 +4,7 @@ function initMap() {
   // Add a map for downtown Chicago and set options
   map = new google.maps.Map(document.getElementById("map"), {
     center: {lat: 41.87988039372353, lng: -87.61959235395719},
-    zoom: 12,
+    zoom: 14,
   });
 
   // Add 3 locations with markers on the map

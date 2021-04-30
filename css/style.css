@@ -92,8 +92,9 @@ div.chicago img {
 
 #map {
     margin: 0 auto;
-    height: 700px;
+    height: 650px;
     width: 100%;
+    color: #000000;
 }
 
 .googleMapsInfo {
