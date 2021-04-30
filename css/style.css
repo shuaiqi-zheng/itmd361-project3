@@ -24,11 +24,6 @@
 #main {
     margin-left: 2em;
     margin-right: 2em;
-    width: 800px;
-    height: auto;
-    margin: 10px auto;
-    padding: 10px;
-    position: relative;
 }
 
 .center {
@@ -58,7 +53,7 @@ nav ul {
 }
 
 nav li {
-    float: left;
+    float: center;
 }
 
 nav li a {
@@ -99,10 +94,6 @@ div.chicago img {
     margin: 0 auto;
     height: 600px;
     width: 100%;
-}
-
-.center {
-    text-align: center;
 }
 
 .googleMapsInfo {
