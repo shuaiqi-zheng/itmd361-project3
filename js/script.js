@@ -39,13 +39,13 @@ function initMap() {
   });
 
   // Add info window to the Cloud Gate
-  const cloud_gate = '<h2>Cloud Gate</h2> <p>The Willis Tower is a 108-story, 1,450-foot (442.1 m) skyscraper in Chicago. At completion in 1974, it surpassed the World Trade Center in New York City to become the tallest building in the world, a title that it held for nearly 25 years.</p>'
+  const cloud_gate = '<h2>Cloud Gate</h2> <p>Cloud Gate is a public sculpture by Indian-born British artist Sir Anish Kapoor, that is the centerpiece of AT&T Plaza at Millennium Park in the Loop community area of Chicago, Illinois.</p>'
   const marker2_info = new google.maps.InfoWindow({
   content: cloud_gate
   });
 
   // Add info window to IIT
-  const iit = '<h2>Illinois Institute of Technology</h2> <p>The Willis Tower is a 108-story, 1,450-foot (442.1 m) skyscraper in Chicago. At completion in 1974, it surpassed the World Trade Center in New York City to become the tallest building in the world, a title that it held for nearly 25 years.</p>'
+  const iit = '<h2>Illinois Institute of Technology</h2> <p>Illinois Institute of Technology (Illinois Tech) is a private research university in Chicago, Illinois. Tracing its history to 1890, the present name was adopted upon the merger of the Armour Institute and Lewis Institute in 1940.</p>'
   const marker3_info = new google.maps.InfoWindow({
   content: iit
   });
