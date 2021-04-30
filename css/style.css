@@ -121,7 +121,7 @@ div.chicago img {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
 
 #header li a:hover {
   background-color: #2ca898;
@@ -147,7 +147,7 @@ h2{
 }
 }
 
-@media only screen and (min-width: 300px) {
+@media screen and (min-width: 300px) {
 #header li a:hover {
   background-color: #2ca898;
 }
