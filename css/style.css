@@ -52,10 +52,6 @@ nav ul {
     background-color:#30475e;
 }
 
-nav li {
-    position: center;
-}
-
 nav li a {
     color: #ececec;
     text-decoration: none;
